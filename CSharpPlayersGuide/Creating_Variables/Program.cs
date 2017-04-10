@@ -58,6 +58,20 @@ namespace Creating_Variables
 
 
 
+            int a = 17;
+            int b = 3;
+            int quotient = a / b;
+            int remainder = a % b;
+            int checkResult = b * quotient + remainder;
+
+            Console.WriteLine(a + "/" + b + " is " + quotient + " remainder " + remainder);
+            Console.WriteLine(checkResult);
+
+
+            //Cylindar program area
+
+            
+
 
             /*
             Console.WriteLine(aLongInterger);
