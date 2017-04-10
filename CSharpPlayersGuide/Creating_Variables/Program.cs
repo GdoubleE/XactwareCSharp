@@ -68,7 +68,13 @@ namespace Creating_Variables
             Console.WriteLine(checkResult);
 
 
-            //Cylindar program area
+            double newA = 1.0 + 1 + 1.0f;
+            int newX = (int)(7 + 3.0 / 4.0 * 2);
+            Console.WriteLine((1 + 1) / 2 * 3);
+
+            Console.WriteLine(newA);
+            Console.WriteLine(newX);
+
 
             
 

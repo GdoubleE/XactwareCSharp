@@ -10,9 +10,12 @@ namespace CylindarCalculator
     {
         static void Main(string[] args)
         {
+            //Cylindar Calculator program
+            Console.WriteLine("Welcome to Cylindar Calculator!");
+            Console.WriteLine("---------------------------------");
 
-            int h;
-            int r;
+            
+            
 
             
             double pie = 3.1415926;
@@ -20,12 +23,12 @@ namespace CylindarCalculator
 
 
             Console.WriteLine("Enter Cylindar height:  ");
-            h = Convert.ToInt16(Console.ReadLine());
+            int h = Convert.ToInt16(Console.ReadLine());
 
 
             Console.WriteLine("Enter Cylindar Radius: ");
-            r = Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine("cylindar height = " + h + "Cylindar radius = " + r);
+            int r = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("cylindar height = " + h + " Cylindar radius = " + r);
 
             double volume = (pie * (r * r)) * h;
             double surfaceArea = (2 * pie * r * (r + h));
