@@ -14,10 +14,6 @@ namespace CylindarCalculator
             Console.WriteLine("Welcome to Cylindar Calculator!");
             Console.WriteLine("---------------------------------");
 
-            
-            
-
-            
             double pie = 3.1415926;
 
 

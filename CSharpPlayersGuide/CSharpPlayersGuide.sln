@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creating_Variables", "Creat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CylindarCalculator", "ConsoleApp1\CylindarCalculator.csproj", "{0D5C2439-3A4F-46D1-A147-D7D3D35A0098}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecisionMaking", "DecisionMaking\DecisionMaking.csproj", "{AB7AC993-7345-48E6-A741-E51689E13F02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0D5C2439-3A4F-46D1-A147-D7D3D35A0098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D5C2439-3A4F-46D1-A147-D7D3D35A0098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D5C2439-3A4F-46D1-A147-D7D3D35A0098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7AC993-7345-48E6-A741-E51689E13F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7AC993-7345-48E6-A741-E51689E13F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7AC993-7345-48E6-A741-E51689E13F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7AC993-7345-48E6-A741-E51689E13F02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
