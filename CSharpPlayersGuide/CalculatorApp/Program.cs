@@ -28,7 +28,7 @@ namespace CalculatorApp
 
             //this will allow the user to use the calculator more than once 
             while (useCalc != "n")
-            { 
+            {
 
                 Console.Write("Please enter a number: "); //get the first number
                 num1 = Convert.ToInt32(Console.ReadLine());
@@ -39,31 +39,7 @@ namespace CalculatorApp
                 Console.Write("\nPlease Enter another number: "); //get the second number
                 num2 = Convert.ToInt32(Console.ReadLine());
 
-
-                    switch(operand)//switch statement to perform various math functions on the numbers
-                    {
-                        case "+":
-                            answer = num1 + num2;
-                            break;
-                        case "-":
-                            answer = num1 - num2;
-                            break;
-                        case "/":
-                            answer = (float)num1 / (float)num2;
-                            break;
-                        case "*":
-                            answer = num1 * num2;
-                            break;
-                        case "%":
-                            answer = num1 % num2;
-                            break;
-                        case "^":
-                            answer = (float)Math.Pow(num1, num2);
-                            break;
-                        default:
-                            answer = 0;
-                            break;
-                    }
+                answer = CalculatorSwitch(num1, num2, operand);
                 Console.WriteLine("---------------------------------------------");
                 Console.WriteLine($"Answer:  {num1} {operand} {num2} = {answer}"); //display results
                 Console.WriteLine("---------------------------------------------");
@@ -75,9 +51,40 @@ namespace CalculatorApp
 
             Console.ReadKey();
 
+            
 
 
+        }
 
+        private static float CalculatorSwitch(int num1, int num2, string operand)
+        {
+            float answer;
+            switch (operand)//switch statement to perform various math functions on the numbers
+            {
+                case "+":
+                    answer = num1 + num2;
+                    break;
+                case "-":
+                    answer = num1 - num2;
+                    break;
+                case "/":
+                    answer = (float)num1 / (float)num2;
+                    break;
+                case "*":
+                    answer = num1 * num2;
+                    break;
+                case "%":
+                    answer = num1 % num2;
+                    break;
+                case "^":
+                    answer = (float)Math.Pow(num1, num2);
+                    break;
+                default:
+                    answer = 0;
+                    break;
+            }
+
+            return answer;
         }
     }
 }
