@@ -10,13 +10,14 @@ namespace Chapter15_Methods
     {
         static void Main(string[] args)
         {
-            int[] numbers = GenerateNumbers(50);
+            int[] numbers = GenerateNumbers(10);
 
-            PrintNumbers(numbers);
+         
 
             int[] reverse = ReverseArray(numbers);
             //ReverseA(numbers);
             PrintNumbers(numbers);
+            PrintNumbers(reverse);
 
            
 
@@ -39,9 +40,14 @@ namespace Chapter15_Methods
         static int[] ReverseArray(int[] numbers)
         {
 
-            int[] reverseArray = new int[10];
-            reverseArray = numbers;
-            for(int i = 0; i < reverseArray.Length /2; i++)
+            int[] reverseArray = new int[numbers.Length];
+
+            for(int j = 0; j < numbers.Length; j++)
+                {
+                    reverseArray[j] = numbers[j];
+                }
+            
+            for (int i = 0; i < reverseArray.Length / 2; i++)
             {
                 int tmp = reverseArray[i];
                 reverseArray[i] = reverseArray[reverseArray.Length - i - 1];
@@ -50,19 +56,6 @@ namespace Chapter15_Methods
             return reverseArray;
         }
 
-        //static void ReverseA(int[] numbers)
-        //{
-        //    int[] reverseArray = new int[10];
-
-        //    reverseArray = numbers;
-        //    for (int i = 0; i < reverseArray.Length / 2; i++)
-        //    {
-        //        int tmp = reverseArray[i];
-        //        reverseArray[i] = reverseArray[reverseArray.Length - i - 1];
-        //        reverseArray[reverseArray.Length - i - 1] = tmp;
-        //    }
-            
-        //}
 
         static void PrintNumbers(int[] array)
         {

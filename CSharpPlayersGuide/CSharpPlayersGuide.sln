@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter15_Methods", "Chapter15_Methods\Chapter15_Methods.csproj", "{EA1FFC7F-A197-40F9-A434-5BB8ED39B26F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciChapter15", "FibonacciChapter15\FibonacciChapter15.csproj", "{40331D0E-7E32-45FB-A155-D6C073EA2E9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter17_Die_Rolling", "Chapter17_Die_Rolling\Chapter17_Die_Rolling.csproj", "{0A3B521D-DA19-4912-8C77-8764904A99CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{EA1FFC7F-A197-40F9-A434-5BB8ED39B26F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA1FFC7F-A197-40F9-A434-5BB8ED39B26F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA1FFC7F-A197-40F9-A434-5BB8ED39B26F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40331D0E-7E32-45FB-A155-D6C073EA2E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40331D0E-7E32-45FB-A155-D6C073EA2E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40331D0E-7E32-45FB-A155-D6C073EA2E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40331D0E-7E32-45FB-A155-D6C073EA2E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3B521D-DA19-4912-8C77-8764904A99CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3B521D-DA19-4912-8C77-8764904A99CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3B521D-DA19-4912-8C77-8764904A99CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3B521D-DA19-4912-8C77-8764904A99CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
